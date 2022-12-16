@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99F39133-A79F-4E5E-B716-08913077A2AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FelipeKnows_Final_CS</RootNamespace>
+    <AssemblyName>FelipeKnows_Final_CS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AA.Designer.cs">
+      <DependentUpon>AA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AD.Designer.cs">
+      <DependentUpon>AD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AE.Designer.cs">
+      <DependentUpon>AE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exit.Designer.cs">
+      <DependentUpon>exit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex_it.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex_it.Designer.cs">
+      <DependentUpon>ex_it.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FelipeKnows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FelipeKnows.Designer.cs">
+      <DependentUpon>FelipeKnows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LA.Designer.cs">
+      <DependentUpon>LA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LD.Designer.cs">
+      <DependentUpon>LD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LE.Designer.cs">
+      <DependentUpon>LE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MA.Designer.cs">
+      <DependentUpon>MA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MD.Designer.cs">
+      <DependentUpon>MD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ME.Designer.cs">
+      <DependentUpon>ME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA.Designer.cs">
+      <DependentUpon>PA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PD.Designer.cs">
+      <DependentUpon>PD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PE.Designer.cs">
+      <DependentUpon>PE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SA.Designer.cs">
+      <DependentUpon>SA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SD.Designer.cs">
+      <DependentUpon>SD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SE.Designer.cs">
+      <DependentUpon>SE.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AA.resx">
+      <DependentUpon>AA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AD.resx">
+      <DependentUpon>AD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AE.resx">
+      <DependentUpon>AE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exit.resx">
+      <DependentUpon>exit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex_it.resx">
+      <DependentUpon>ex_it.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FelipeKnows.resx">
+      <DependentUpon>FelipeKnows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LA.resx">
+      <DependentUpon>LA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LD.resx">
+      <DependentUpon>LD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LE.resx">
+      <DependentUpon>LE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MA.resx">
+      <DependentUpon>MA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MD.resx">
+      <DependentUpon>MD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ME.resx">
+      <DependentUpon>ME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA.resx">
+      <DependentUpon>PA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD.resx">
+      <DependentUpon>PD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PE.resx">
+      <DependentUpon>PE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SA.resx">
+      <DependentUpon>SA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SD.resx">
+      <DependentUpon>SD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SE.resx">
+      <DependentUpon>SE.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5GpD.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27-273136_philippines-flag-fingerprint-652971-philippine-flag-finger-print.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHPolitics.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\200809404_241602377772278_5981706775485067849_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lsDCyvIHHjodPPA-800x450-noPad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sea-games-history-winners-losers-1576138121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Special-Pub-July-Aug-2-min-1200x674.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top-filipino-athletes-on-sm-carousel-dec-18-2017.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\87705.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Natl-artist-women_copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ph-national-artist-october-24-2018.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\971-27-1411X.preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2009-14_Order_of_National_Artists_Award_conferment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gen18-national-artist_2018-10-22_22-30-53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\national-artists.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\National-Artists-In-Music.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noli-me-tangere-and-el-filibusterismo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o1AJ9qDyyJNSpZWhUgGYc3MngFqoAMx4FXJ72qHigAy4aFCKg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phshortstories-1200x900.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
